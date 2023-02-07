@@ -7,6 +7,9 @@ public class Fruits {
     @Size
     private String name;
 
+    @Size
+    private String color;
+
     public String getName() {
         return name;
     }
