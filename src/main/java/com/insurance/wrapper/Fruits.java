@@ -10,6 +10,9 @@ public class Fruits {
     @Size
     private String color;
 
+    @Size
+    private String taste;
+
     public String getName() {
         return name;
     }
