@@ -10,7 +10,7 @@ phases:
 #      - echo Build completed successfully.
       - echo Build completed on 08-02-2023 11:47am
       - mvn package
-      - mv target/wrapper-0.0.1-SNAPSHOT.jar
+      - mvn target/wrapper-0.0.1-SNAPSHOT.jar
 artifacts:
   files:
     - target/order-service.jar
