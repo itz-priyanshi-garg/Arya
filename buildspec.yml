@@ -5,7 +5,8 @@ phases:
     commands:
       - echo Build started
       - mvn clean install
-      - aws s3 rm s3://test2git2bucket/pom.xml
+      - aws s3 rm --recursive "s3://test2git2bucket/src/"
+#      - aws s3 rm s3://test2git2bucket/pom.xml
 
   post_build:
     commands:
