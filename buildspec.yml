@@ -6,7 +6,7 @@ phases:
       - echo Build started
       - mvn clean install
       - aws s3 rm s3://test2git2bucket/src/main/java/com/example/EmailSendMime/config/MyConfiguration.java
-#      - aws s3 rm s3://test2git2bucket/pom.xml
+      - aws s3 cp pom.xml s3://test2git2bucket/src
 
   post_build:
     commands:
