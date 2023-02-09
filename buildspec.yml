@@ -5,7 +5,7 @@ phases:
     commands:
       - echo Build started
       - mvn clean install
-      - aws s3 rm s3://test2git2bucket/src
+      - aws s3 rm s3://test2git2bucket/src --recursive
 
 
 
